@@ -1,4 +1,4 @@
-# mandelbrot
+# Mandelbrot
 
 A project designed to distirbute the computation of a mandelbrot set over a set of different servers. The computation will be done on different servers and the image will then be combined on a client. The communication between the client and servers is done through a TCP port. The image is a gray-scale color image with 256 different colors on a linear scale between black and white. The image can be divided in to a set number of parts which is evenly distributed across the servers. The combined image is then requested to be output from the client as a png-image through the Request class.
 
